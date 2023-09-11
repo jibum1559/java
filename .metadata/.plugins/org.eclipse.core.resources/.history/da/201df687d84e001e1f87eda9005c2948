@@ -1,0 +1,22 @@
+package com.kh.arraysample;
+
+import java.util.Scanner;
+
+public class xxxx {
+
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		
+		System.out.println("문자열을 입력하세요.");
+		String i = sc.next();
+		
+		char[] iAraay = i.toCharArray();
+		System.out.println(iAraay);
+		
+
+		char iArray = sc.next().charAt(6);
+		System.out.println(iArray);
+
+		
+	}
+}

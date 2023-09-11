@@ -1,0 +1,37 @@
+package com.kh.whilesample;
+
+import java.util.Scanner;
+
+public class While02 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int month;
+		boolean choice = false;
+		while(!choice)
+		System.out.print("숫자를 입력해주세요. : ");
+		month = sc.nextInt();
+		String season = "";
+		
+		switch(month) {
+			case 12 : case 1 : case 2 :
+				season = "겨울";
+				choice = true;
+				break;
+			case 3 : case 4 : case 5 :
+				season = "봄";
+				choice = true;
+				break;
+			case 6 : case 7 : case 8 :
+				season = "여름";
+				choice = true;
+				break;
+			case 9 : case 10 : case 11 :
+				season = "가을";
+				choice = true;
+				break;
+		}
+			System.out.println("선택한 월의 계절은 " + season + "입니다.");
+	}
+}

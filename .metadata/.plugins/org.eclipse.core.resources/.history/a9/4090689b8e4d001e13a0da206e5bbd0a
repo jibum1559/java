@@ -1,0 +1,38 @@
+package com.kh.example.practice7;
+
+import java.util.ArrayList;
+
+/*
+* ArrayList 이용해서 빨주노초파남보
+* 수정 3회 1,3,5 ->블랙, 브라운, 그린 수정
+* 더하기 2회 ->주황, [옐로우],파랑,[연한파랑]
+* 향상된 for문 이용해서 색상 출력하기
+* 최 후 출력 빨 파 보
+*/
+public class ArrayList3_1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> rainbow = new ArrayList<>();
+		System.out.println("rainbow : " + rainbow);
+		
+		rainbow.add("빨");
+		System.out.println("빨간색 추가 : " + rainbow);
+		rainbow.add("주");
+		System.out.println("주황색 추가 : " + rainbow);
+		rainbow.add("노");
+		System.out.println("노란색 추가 : " + rainbow);
+		rainbow.add("초");
+		System.out.println("초록색 추가 : " + rainbow);
+		rainbow.add("파");
+		System.out.println("파란색 추가 : " + rainbow);
+		rainbow.add("남");
+		System.out.println("남색 추가 : " + rainbow);
+		rainbow.add("보");
+		System.out.println("보라색 추가 : " + rainbow);
+		
+		rainbow.set(1, 블랙);
+		
+	}
+	
+}

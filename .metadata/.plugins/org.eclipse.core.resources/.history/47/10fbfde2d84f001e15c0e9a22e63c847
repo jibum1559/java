@@ -1,0 +1,5 @@
+package com.kh.pattern.mvc;
+
+public class MVCStudent {
+
+}

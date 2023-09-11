@@ -1,0 +1,5 @@
+package com.kh.pattern.mvc.Controller;
+
+public class UserController {
+
+}

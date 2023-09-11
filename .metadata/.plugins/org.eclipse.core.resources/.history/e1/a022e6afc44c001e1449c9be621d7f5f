@@ -1,0 +1,10 @@
+package com.kh.classCircle;
+
+public class CircleRun {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

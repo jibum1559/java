@@ -1,0 +1,28 @@
+package com.kh.scannersample;
+
+import java.util.Scanner;
+
+public class ScannerExme {
+
+	public static void main(String[] args) {
+		
+		int age = 4;
+		int charge;
+		String free = "무료 입장";
+		
+		if(age < 4) {
+			System.out.println("36개월 미만입니다.");
+		} else if (age < 13) {
+			charge = 2000;
+			System.out.println("유아 입니다.");
+		} else if (age < 19) {
+			charge = 4000;
+			System.out.println("청소년 입니다.");
+		} else {
+			charge = 6000;
+			System.out.println("성인 입니다.");
+		}
+		System.out.println("입장료는" + charge + " 입니다.");
+	}
+
+}

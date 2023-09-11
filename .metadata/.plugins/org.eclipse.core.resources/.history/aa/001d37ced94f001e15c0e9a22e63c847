@@ -1,0 +1,5 @@
+package com.kh.mvc.person.co;
+
+public class PersonController {
+
+}

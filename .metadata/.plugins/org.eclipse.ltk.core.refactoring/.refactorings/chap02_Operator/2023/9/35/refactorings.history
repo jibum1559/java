@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.kh.operator.assignment&apos; to &apos;Assignment&apos;&#x0D;&#x0A;- Original project: &apos;Operator&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.operator.assignment&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kh.operator.Assignment&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;assignment&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.kh.operator{assignment.java[assignment" matchStrategy="1" name="Assignment" qualified="false" references="true" similarDeclarations="false" stamp="1693637412173" textual="false" version="1.0"/>
+</session>

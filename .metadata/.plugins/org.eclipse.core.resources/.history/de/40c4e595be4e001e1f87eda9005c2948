@@ -1,0 +1,19 @@
+package com.kh.scannersample;
+
+import java.util.Scanner;
+
+public class ScannerExme {
+
+	public static void main(String[] args) {
+		
+		int gender = 2;
+			if(gender == 2);{
+				System.out.println("여성입니다.");
+			} else 				System.out.println("남성입니다.");
+			}
+		
+		
+		
+	}
+
+}

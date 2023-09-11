@@ -1,0 +1,19 @@
+package com.kh.arraysample;
+
+import java.util.Scanner;
+
+public class xxxx {
+
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		
+		System.out.println("문자열 입력");
+		String i = sc.next();
+		int iLength = i.length();
+		System.out.println("문자열의 개수" + iLength);
+		
+		char[] iArray = i.toCharArray();
+		System.out.println(iArray);
+		
+	}
+}
