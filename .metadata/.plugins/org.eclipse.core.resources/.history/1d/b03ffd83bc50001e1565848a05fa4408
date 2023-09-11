@@ -35,7 +35,7 @@ public class StudentController {
 	public int getStudentAge() {
 		return studentmodel.getAge();
 	}
-	 
+	
 	public void updateView() {
 		//DB에 변경될 값 추가
 		studentview.displayInfor(studentmodel.getName(), studentmodel.getAge());
