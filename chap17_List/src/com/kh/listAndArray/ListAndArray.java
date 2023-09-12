@@ -1,4 +1,4 @@
-package com.kh.listAndArray;
+package com.kh.ListAndArray;
 
 import java.util.ArrayList;
 import java.util.List;

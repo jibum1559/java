@@ -72,7 +72,7 @@ public class PlayerCharacter {
 	
 	//캐릭터 공격하는 메서드
 	public void attack(PlayerCharacter target) {
-		System.out.println("["+ name +"]는 공격해서 [" + target.getName() +"] 한테 " + attackPower+" 데미지를 줬습니다!");
+		System.out.println(getName() + "는 해서 " + target.getName() + " for " + attackPower + "데미지를 줬습니다.");
 		System.out.println("공격했습니다.");
 	}
 	
