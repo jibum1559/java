@@ -9,15 +9,7 @@ public class Circle {
 	private final double PI = 3.14; //상수
 	private int radius = 1; //변수
 
-	public int getRadius() {
-		return radius;
-	}
-	public void setRadius(int radius) {
-		this.radius = radius;
-	}
-	public double getPI() {
-		return PI;
-	}
+	
 	
 	//생성자
 	public Circle() {
@@ -32,12 +24,12 @@ public class Circle {
 	}
 	public void AreaCircle() {
 		//원의 넓이를 계산하고 출력하는 메소드
-		double area = getPI() * getRadius() * getRadius();
+		double area = PI * radius * radius;
 		System.out.println("원의 넓이 : " + area);
 		
 	}
 	public void SizeofCircle() {
-		System.out.println("원의 크기(반지름) : " +  getRadius());
+		System.out.println("원의 크기(반지름) : " +  radius);
 	}
 	
 }
