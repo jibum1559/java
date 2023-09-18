@@ -1,6 +1,6 @@
 package com.kh.classSample;
 
-import com.kh.classSample.Student;
+//import com.kh.classSample.Student; //패키지가 같기 때문에 import를 쓰지 않아도 가능
 public class StudentMain {
 
 	public static void main(String[] args) {

@@ -15,7 +15,7 @@ public class Constant {
 		System.out.println("a의 값 : " + a);
 		System.out.println("b의 값 : " + b);
 
-//		System.out.println("c의 값 : " + c); static을 사용하지 않았기 때문에 에러
+		//System.out.println("c의 값 : " + c); //static을 사용하지 않았기 때문에 에러
 	}
 
 }
